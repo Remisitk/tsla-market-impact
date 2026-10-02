@@ -14,3 +14,8 @@ scikit-learn==1.7.2
 setuptools==82.0.1
 six==1.17.0
 wheel==0.47.0
+
+# Imported by the notebook but missing from the original freeze (versions not recorded)
+scipy
+pyarrow
+ipykernel
