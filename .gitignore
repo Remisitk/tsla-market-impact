@@ -1,0 +1,16 @@
+# Raw and derived market data are never versioned (licensed LOBSTER files)
+TSLA/
+*_working/
+*.parquet
+
+# Local outputs written by the notebook
+latex/
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

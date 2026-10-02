@@ -140,7 +140,8 @@ Section 9.4 of the notebook reproduces the paper's view of the book around trade
 ## Reproduce
 
 ```bash
-cd projects/tsla-market-impact
+git clone https://github.com/Remisitk/tsla-market-impact.git
+cd tsla-market-impact
 python3 -m venv .venv && source .venv/bin/activate
 pip install -r requirements.txt
 ```
@@ -155,7 +156,7 @@ TSLA/TSLA_2019-01-02_34200000_57600000_orderbook_2.csv
 
 and run [`notebooks/tsla_liquidity_analysis.ipynb`](notebooks/tsla_liquidity_analysis.ipynb) from top to bottom. The notebook copies the raw files to a working folder next to the project and caches the prepared data there as Parquet; both are git-ignored. Set `RUN_ML = False` in the first code cell to skip the slow machine-learning section.
 
-The figures in this README are the outputs stored in the committed notebook. If GitHub struggles to render the notebook (it is 4 MB), open it in [nbviewer](https://nbviewer.org/github/Remisitk/quant-ml-portfolio/blob/main/projects/tsla-market-impact/notebooks/tsla_liquidity_analysis.ipynb).
+The figures in this README are the outputs stored in the committed notebook. If GitHub struggles to render the notebook (it is 4 MB), open it in [nbviewer](https://nbviewer.org/github/Remisitk/tsla-market-impact/blob/main/notebooks/tsla_liquidity_analysis.ipynb).
 
 ## Layout
 
@@ -173,7 +174,7 @@ This is a team project, carried out in one week in June 2026 for the course *Liq
 
 **Team:** Laura Cohen, Riad Darwish, Allan Pariente and Rémi Sithisak.
 
-The team's working repository, with its full commit history, is [lauracoh10-collab/EI_liquidity](https://github.com/lauracoh10-collab/EI_liquidity). This folder is a curated copy for presentation: the notebook is the team's, and the README, the exported figures and the tidy-up of the notebook notes were added here. The course slides and the course reference notebook are not redistributed.
+The team's working repository, with its full commit history, is [lauracoh10-collab/EI_liquidity](https://github.com/lauracoh10-collab/EI_liquidity). This repository is a curated copy for presentation: the notebook is the team's, and the README, the exported figures and the tidy-up of the notebook notes were added here. The course slides and the course reference notebook are not redistributed.
 
 ## References
 
